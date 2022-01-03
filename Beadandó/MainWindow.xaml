@@ -1,0 +1,35 @@
+﻿<Window x:Class="Beadandó.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="767" Width="562.5">
+    <Window.Resources>
+        <DataTemplate x:Key="DataTemplate_Level2">
+            <Label BorderBrush="Black" BorderThickness="1" Content="{Binding}" Height="40" Width="60" Margin="4,4,4,4"/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="DataTemplate_Level1">
+            <ItemsControl ItemsSource="{Binding}" ItemTemplate="{DynamicResource DataTemplate_Level2}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid x:Name="main" >
+        <TextBox x:Name="InPutText" HorizontalAlignment="Left" Height="23" Margin="177,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Add meg a inputot" HorizontalAlignment="Left" Margin="49,49,0,0" VerticalAlignment="Top"/>
+        <Label Content="Az egyszerűsitett input:" HorizontalAlignment="Left" Margin="49,105,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="simpleInputTextLable" Content="" HorizontalAlignment="Left" Margin="211,105,0,0" VerticalAlignment="Top"/>
+        <Button Content="Vizsgál" HorizontalAlignment="Left" Margin="328,52,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Matrix" HorizontalAlignment="Left" Margin="49,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="SuccesLable" Content="" HorizontalAlignment="Left" Margin="422,52,0,0" VerticalAlignment="Top" Width="94"/>
+        <Grid>
+            <ItemsControl x:Name="lst" Margin="100,150,0,0"  ItemTemplate="{DynamicResource DataTemplate_Level1}"/>
+        </Grid>
+    </Grid>
+</Window>
