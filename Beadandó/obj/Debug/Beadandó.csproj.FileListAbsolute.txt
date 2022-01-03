@@ -12,3 +12,18 @@ E:\sync-momsz\EKE\Fordító Programok\Kod\Beadandó\Beadandó\obj\Debug\Beadand�
 E:\sync-momsz\EKE\Fordító Programok\Kod\Beadandó\Beadandó\obj\Debug\Beadandó.csproj.CoreCompileInputs.cache
 E:\sync-momsz\EKE\Fordító Programok\Kod\Beadandó\Beadandó\obj\Debug\Beadandó.exe
 E:\sync-momsz\EKE\Fordító Programok\Kod\Beadandó\Beadandó\obj\Debug\Beadandó.pdb
+G:\Git\ForditoProg\Beadandó\bin\Debug\Beadandó.exe.config
+G:\Git\ForditoProg\Beadandó\bin\Debug\Beadandó.exe
+G:\Git\ForditoProg\Beadandó\bin\Debug\Beadandó.pdb
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó.csproj.AssemblyReference.cache
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó.csproj.SuggestedBindingRedirects.cache
+G:\Git\ForditoProg\Beadandó\obj\Debug\MainWindow.baml
+G:\Git\ForditoProg\Beadandó\obj\Debug\MainWindow.g.cs
+G:\Git\ForditoProg\Beadandó\obj\Debug\App.g.cs
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó_MarkupCompile.cache
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó.g.resources
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó.Properties.Resources.resources
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó.csproj.GenerateResource.cache
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó.csproj.CoreCompileInputs.cache
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó.exe
+G:\Git\ForditoProg\Beadandó\obj\Debug\Beadandó.pdb

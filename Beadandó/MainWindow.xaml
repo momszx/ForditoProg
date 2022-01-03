@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="767" Width="562.5">
+        Title="MainWindow" Height="767" Width="962.5" Background="#FFFBFFBD">
     <Window.Resources>
         <DataTemplate x:Key="DataTemplate_Level2">
             <Label BorderBrush="Black" BorderThickness="1" Content="{Binding}" Height="40" Width="60" Margin="4,4,4,4"/>
@@ -21,15 +21,15 @@
         </DataTemplate>
     </Window.Resources>
     <Grid x:Name="main" >
-        <TextBox x:Name="InPutText" HorizontalAlignment="Left" Height="23" Margin="177,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Add meg a inputot" HorizontalAlignment="Left" Margin="49,49,0,0" VerticalAlignment="Top"/>
-        <Label Content="Az egyszerűsitett input:" HorizontalAlignment="Left" Margin="49,105,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="simpleInputTextLable" Content="" HorizontalAlignment="Left" Margin="211,105,0,0" VerticalAlignment="Top"/>
-        <Button Content="Vizsgál" HorizontalAlignment="Left" Margin="328,52,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Label Content="Matrix" HorizontalAlignment="Left" Margin="49,152,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="SuccesLable" Content="" HorizontalAlignment="Left" Margin="422,52,0,0" VerticalAlignment="Top" Width="94"/>
-        <Grid>
-            <ItemsControl x:Name="lst" Margin="100,150,0,0"  ItemTemplate="{DynamicResource DataTemplate_Level1}"/>
+        <TextBox x:Name="InPutText" HorizontalAlignment="Left" Height="23" Margin="118,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Add meg a inputot" HorizontalAlignment="Left" Margin="5,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Az egyszerűsitett input:" HorizontalAlignment="Left" Margin="325,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="simpleInputTextLable" Content="" HorizontalAlignment="Left" Margin="463,12,0,0" VerticalAlignment="Top"/>
+        <Button Content="Vizsgál" HorizontalAlignment="Left" Margin="245,12,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Matrix" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="SuccesLable" Content="" HorizontalAlignment="Left" Margin="551,15,0,0" VerticalAlignment="Top" Width="94"/>
+        <Grid >
+            <ItemsControl x:Name="lst" Margin="50,39,50,111"  ItemTemplate="{DynamicResource DataTemplate_Level1}"/>
         </Grid>
     </Grid>
 </Window>
